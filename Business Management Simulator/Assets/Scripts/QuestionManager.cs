@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using TMPro;
 public class QuestionManager : MonoBehaviour
 {
+    public string[] dogru;
+    public string[] yanlis;
     public string[] question;
     public string[] AnswerA;
     public string[] AnswerB;
@@ -87,11 +89,11 @@ public class QuestionManager : MonoBehaviour
         {
             if (PlayerPrefs.GetInt("Answer" + i) == 0)
             {
-                AnswerList[i].text = "Question " + i.ToString() + " :  " + " Wrong";
+                AnswerList[i].text = "Question " + i.ToString() + " :  " +  yanlis[i];
             }
             else if (PlayerPrefs.GetInt("Answer" + i) == 1)
             {
-                AnswerList[i].text = "Question " + i.ToString() + " :  " + " Correct";
+                AnswerList[i].text = "Question " + i.ToString() + " :  " +  dogru[i];
             }
         }
 

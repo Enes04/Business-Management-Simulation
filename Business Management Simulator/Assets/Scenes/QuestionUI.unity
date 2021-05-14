@@ -1429,6 +1429,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccf75cd0734c74e4d9bc265c3d954b38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogru:
+  - d1
+  - d2
+  - d3
+  - d4
+  - d5
+  - d6
+  - d7
+  - d8
+  - d9
+  - d10
+  - d11
+  - d12
+  yanlis:
+  - y1
+  - y2
+  - y3
+  - y4
+  - y5
+  - y6
+  - y7
+  - y8
+  - y9
+  - y10
+  - y11
+  - y12
   question:
   - Q1
   - Q2
